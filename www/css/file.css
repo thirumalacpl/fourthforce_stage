@@ -1539,6 +1539,11 @@ div.upload input {
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) { 
 
+.commfo{
+   font-weight: 400;
+    font-size: 20px !important;
+}
+
 .grid_3_less {
   width: 12% !important;
   margin-top:3%;
@@ -1591,9 +1596,14 @@ div.upload input {
     margin: 0;
     font-size: 12px;
     color: #A9A0A0 !important;
-    padding: 0px 1px 1px 15px !important;
+    padding: 0px 1px 1px 10px !important;
     /* float: left; */
 
+}
+
+.msg_grid_3 {
+    width: 20% !important;
+    padding: 0px 0px 0px 30px !important;
 }
 .msg_span_3_new {
         float: left !important;

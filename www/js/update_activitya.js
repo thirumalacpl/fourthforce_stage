@@ -144,9 +144,9 @@ var time=datea.getHours()+':'+datea.getMinutes();
 
 
 if(idf == verification_user_id && type == qualification_id ){
-
-//alert(qualification_id+'qualification_id iiiiiiiiiiiiinnnnnnnnn'+type);
-//alert(verification_user_id+'verification_user_id iiiiiinnnn'+idf);
+/*
+alert(qualification_id+'qualification_id iiiiiiiiiiiiinnnnnnnnn'+type+'type');
+alert(verification_user_id+'verification_user_id iiiiiinnnn'+idf+'idf');*/
 
 //alert(date+'2');
 if(status == 'supervisor' && text !==''){
@@ -154,7 +154,7 @@ if(status == 'supervisor' && text !==''){
 
 //var chatr='<div class="ui-grid-b" style="padding-top:5%;"><div class="ui-block-a msg_grid_3"><span class="msg_span_3">'+date+'</span> <br><i class="zmdi zmdi-time zmd-fw" style="opacity: 0.5; padding-left:7%;    padding-top: 7%;margin-top:-10px"></i><span class="msg_span_3">'+time+'</span></div><div class="ui-block-b msg_grid_4">  <p class="msg_box msg_mid_bg">'+activity_lok_obj.activity_log+'</p></div><div class="ui-block-c msg_grid_5"><img src="images/primary/chat-icon.png" alt="" style="padding: 0px 2px 1px 18px;"><p style="float: right;margin-right: 25px;margin-top: -5px;color:#54566B">hari</p></div></div> '
 //var chatr='<div class="ui-grid-b" style="padding-top:5%;"><div class="ui-block-a msg_grid_3"><span class="msg_span_3">'+date+'</span> <br><i class="zmdi zmdi-time zmd-fw" style="opacity: 0.5; padding-left:7%;    padding-top: 7%;margin-top:-10px"></i><span class="msg_span_3 msg_span_3_new">'+time+'</span></div><div class="ui-block-b msg_grid_4">  <p class="msg_box msg_mid_bg">'+activity_lok_obj.activity_log+'</p></div><div class="ui-block-c msg_grid_5 msg_grid_5_c"><img src="images/primary/chat-icon.png" alt="" class="msg_img_new" ><p style="" class="">TVO</p></div></div>'
-var chatr=' <div class="ui-grid-b" style="padding-top:5%;"><div class="ui-block-a msg_grid_3"><span class="msg_span_3">'+date+'</span> <br><i class="zmdi zmdi-time zmd-fw" style="opacity: 0.5; padding-left:7%;    padding-top: 7%;margin-top:-10px"></i><span class="msg_span_3">'+time+'</span></div><div class="ui-block-b msg_grid_4">  <p class="msg_box msg_mid_bg">'+activity_lok_obj.activity_log+' </p></div><div class="ui-block-c msg_grid_5"><img src="images/primary/chat-icon.png" alt="" class="p_img_grid" style="width:80px;"><br><p class="p_msg_grid">Tvo</p></div></div> '
+var chatr=' <div class="ui-grid-b" style="padding-top:5%;"><div class="ui-block-a msg_grid_3"><span class="msg_span_3">'+date+'</span> <br><i class="zmdi zmdi-time zmd-fw" style="opacity: 0.5; padding-left:7%;    padding-top: 7%;margin-top:-10px"></i><span class="msg_span_3">'+time+'</span></div><div class="ui-block-b msg_grid_4">  <p class="msg_box msg_mid_bg">'+activity_lok_obj.activity_log+' </p></div><div class="ui-block-c msg_grid_5"><img src="images/primary/chat-1.PNG" alt="" class="p_img_grid" style="width:80px;"><br><p class="p_msg_grid">Tvo</p></div></div> '
 
 $('#chatr').append(chatr);
 }
@@ -163,7 +163,7 @@ if(status == 'doc' && image !==''){
 
 //var chatr='<div class="ui-grid-b" style="padding-top:5%;padding-bottom:5%"><div class="ui-block-a msg_grid_3"><span class="msg_span_3">'+date+'</span> <br><i class="zmdi zmdi-time zmd-fw" style="opacity: 0.5; padding-left:7%;    padding-top: 7%;margin-top:-10px"></i><span class="msg_span_3">'+time+'</span></div><div class="ui-block-b msg_grid_4">  <p class="msg_box msg_mid_bgg"><img src="http://staging.eimpressive.com/watchguardlive/super/'+activity_lok_obj.document+'" style="width:100px;height:80px;margin-left:25%" alt="Band"></p></div><div class="ui-block-c msg_grid_5"><img src="images/primary/chat-icon.png" alt="" style="padding: 0px 2px 1px 18px;"><p style="float: right;margin-right: 25px;margin-top: -5px;color:#54566B">hari</p></div></div>  '
 //var chatr='<div class="ui-grid-b" style="padding-top:5%;padding-bottom:5%"><div class="ui-block-a msg_grid_3"><span class="msg_span_3">'+date+'</span> <br><i class="zmdi zmdi-time zmd-fw" style="opacity: 0.5; padding-left:7%;    padding-top: 7%;margin-top:-10px"></i><span class="msg_span_3 msg_span_3_new">'+time+'</span></div><div class="ui-block-b msg_grid_4">  <p class="msg_box msg_mid_bgg"><img src="http://staging.eimpressive.com/watchguardlive/super/'+activity_lok_obj.document+'" style="width:100px;height:80px;margin-left:25%" alt="Band"></p></div><div class="ui-block-c msg_grid_5 msg_grid_5_c"><img src="images/primary/chat-icon.png" alt="" class=""><p class="">TVO</p></div></div>'
-var chatr='<div class="ui-grid-b"  id="image"><div class="ui-block-a msg_grid_3" style="margin-top: 6%;"> <i class="zmdi zmdi-time zmd-fw" style="    opacity: 0.5; padding-left:7%;"></i><span class="msg_span_3">'+time+'</span><br><span class="msg_span_3">'+date+'</span>  </div><div class="ui-block-b msg_box msg_grid_4 msg_mid_bgg"><p class="msg_grid_p_1 "><a href="#"  class=""><img src="http://staging.eimpressive.com/watchguardlive/super/'+activity_lok_obj.document+'" style="width:100px;height:80px;margin-left:25%" alt="Band"></a></p></div><div class="ui-block-c msg_grid_5 msg_grid_5_1"><img src="images/primary/chat-icon.png" alt="" class="p_img_grid" style="width:80px;"><br><p class="p_msg_grid">Tvo</p></div></div> '
+var chatr='<br><div class="ui-grid-b"  id="image"><div class="ui-block-a msg_grid_3" style="margin-top: 6%;"> <i class="zmdi zmdi-time zmd-fw" style="    opacity: 0.5; padding-left:7%;"></i><span class="msg_span_3">'+time+'</span><br><span class="msg_span_3">'+date+'</span>  </div><div class="ui-block-b msg_box msg_grid_4 msg_mid_bgg"><p class="msg_grid_p_1 "><a href="#"  class=""><img src="http://staging.eimpressive.com/watchguardlive/super/'+activity_lok_obj.document+'" style="width:100px;height:80px;margin-left:25%" alt="Band"></a></p></div><div class="ui-block-c msg_grid_5 msg_grid_5_1"><img src="images/primary/chat-1.PNG" alt="" class="p_img_grid" style="width:80px;"><br><p class="p_msg_grid">Tvo</p></div></div> '
 
 $('#chatr').append(chatr);
 }
@@ -173,7 +173,7 @@ if(status == 'cor'){
 //var chatr='<div class="ui-grid-b" style="padding-top:1%;"><div class="ui-block-a msg_grid_3"><img src="images/primary/chat-icon.png" alt="" style="    padding: 10px 2px 1px 18px;"><p style=" margin-left: 15px;margin-top: -5px;color:#54566B">sudeep</p></div><div class="ui-block-b msg_grid_4"> <p class="msg_box  tip">'+activity_lok_obj.activity_log+'  </p><br> </div><div class="ui-block-c msg_grid_5"> <span class="msg_span_3">'+date+'</span><i class="zmdi zmdi-time zmd-fw" style="opacity: 0.5; padding-left:17%;padding-top: 7%;margin-top:-10px"></i><span class="msg_span_3">'+time+'</span></div></div>'
 
 //var chatr='<div class="ui-grid-b" style="padding-top:4%;"><div class="ui-block-a msg_grid_3"><img src="images/primary/chat-icon.png" alt="" style="    padding: 10px 2px 1px 18px;"><p style=" margin-left: 15px;margin-top: -5px;color:#54566B">STATE HEAD</p></div><div class="ui-block-b msg_grid_4"> <p class="msg_box  tip">'+activity_lok_obj.activity_log+' </p><br> </div><div class="ui-block-c msg_grid_5 msg_grid_sudeep"> <span class="msg_span_3 ">'+date+'</span><i class="zmdi zmdi-time zmd-fw" style="opacity: 0.5; padding-left:17%;padding-top: 7%;margin-top:-10px"></i><span class="msg_sudeep">'+time+'</span></div></div>'
-var chatr='<div class="ui-grid-b" style="padding-top:1%;"><div class="ui-block-a msg_grid_3"><img src="images/primary/chat-icon.png" alt="" style="width:80px;"   padding: 10px 2px 1px 18px;"><p style=" margin-left: 15px;margin-top: -5px;color:#54566B">State Head</p></div><div class="ui-block-b msg_grid_4"> <p class="msg_box  tip">'+activity_lok_obj.activity_log+'   </p><br> </div><div class="ui-block-c msg_grid_5"> <span class="msg_span_3">'+date+'</span><br><i class="zmdi zmdi-time zmd-fw" style="opacity: 0.5; padding-left:7%;padding-top: 7%;margin-top:-10px"></i><span class="msg_span_3">'+time+'</span></div></div>'
+var chatr='<br><div class="ui-grid-b" style="padding-top:1%;"><div class="ui-block-a msg_grid_3"><img src="images/primary/chat-2.PNG" alt="" style="width:80px;"   padding: 10px 2px 1px 18px;"><p style=" margin-left: 15px;margin-top: -5px;color:#54566B">State Head</p></div><div class="ui-block-b msg_grid_4"> <p class="msg_box  tip">'+activity_lok_obj.activity_log+'   </p><br> </div><div class="ui-block-c msg_grid_5"> <span class="msg_span_3">'+date+'</span><br><i class="zmdi zmdi-time zmd-fw" style="opacity: 0.5; padding-left:7%;padding-top: 7%;margin-top:-10px"></i><span class="msg_span_3">'+time+'</span></div></div>'
 
 $('#chatr').append(chatr);
 }
@@ -251,6 +251,9 @@ function onSuccess(data, status)
     status=activity_lok_obj.status;
     date_new=activity_lok_obj.log_date;
 
+      type=activity_lok_obj.type;
+  idf=activity_lok_obj.verification_id;
+
     var s = date_new;
     var bits = s.split(/\D/);
     var datea = new Date(bits[0], --bits[1], bits[2], bits[3], bits[4]);
@@ -258,11 +261,13 @@ function onSuccess(data, status)
 var date=datea.getDate()+'/'+parseInt(datea.getMonth() + 1)+'/'+datea.getFullYear();
 var time=datea.getHours()+':'+datea.getMinutes();
 //alert(date+'2');
+//alert(verification_user_id+'verification_user_id'+'qualification_id'+qualification_id);
+if(idf == verification_user_id && type == qualification_id ){
 if(status == 'supervisor' && text !==''){
 //alert('supervisor');
 
 //var chatr=' <div class="ui-grid-b" style="padding-top:5%;"><div class="ui-block-a msg_grid_3"><span class="msg_span_3">'+date+'</span> <br><i class="zmdi zmdi-time zmd-fw" style="opacity: 0.5; padding-left:7%;    padding-top: 7%;margin-top:-10px"></i><span class="msg_span_3">'+time+'</span></div><div class="ui-block-b msg_grid_4">  <p class="msg_box msg_mid_bg">'+activity_lok_obj.activity_log+' </p></div><div class="ui-block-c msg_grid_5"><img src="images/primary/chat-icon.png" alt="" class="p_img_grid" style="width:80px;"><br><p class="p_msg_grid">Tvo</p></div></div> '
-var chatr=' <div class="ui-grid-b" style="padding-top:5%;"><div class="ui-block-a msg_grid_3"><span class="msg_span_3">'+date+'</span> <br><i class="zmdi zmdi-time zmd-fw" style="opacity: 0.5; padding-left:7%;    padding-top: 7%;margin-top:-10px"></i><span class="msg_span_3">'+time+'</span></div><div class="ui-block-b msg_grid_4">  <p class="msg_box msg_mid_bg">'+activity_lok_obj.activity_log+' </p></div><div class="ui-block-c msg_grid_5"><img src="images/primary/chat-icon.png" alt="" class="p_img_grid" style="width:80px;"><br><p class="p_msg_grid">Tvo</p></div></div> '
+var chatr=' <div class="ui-grid-b" style="padding-top:5%;"><div class="ui-block-a msg_grid_3"><span class="msg_span_3">'+date+'</span> <br><i class="zmdi zmdi-time zmd-fw" style="opacity: 0.5; padding-left:7%;    padding-top: 7%;margin-top:-10px"></i><span class="msg_span_3">'+time+'</span></div><div class="ui-block-b msg_grid_4">  <p class="msg_box msg_mid_bg">'+activity_lok_obj.activity_log+' </p></div><div class="ui-block-c msg_grid_5"><img src="images/primary/chat-1.PNG" alt="" class="p_img_grid" style="width:80px;"><br><p class="p_msg_grid">Tvo</p></div></div> '
 
 $('#chatr').append(chatr);
 }
@@ -271,7 +276,7 @@ if(status == 'doc' && image !==''){
 //alert('doc');
 
 //var chatr='<div class="ui-grid-b"  id="image"><div class="ui-block-a msg_grid_3" style="margin-top: 6%;"> <i class="zmdi zmdi-time zmd-fw" style="    opacity: 0.5; padding-left:7%;"></i><span class="msg_span_3">'+time+'</span><br><span class="msg_span_3">'+date+'</span>  </div><div class="ui-block-b msg_box msg_grid_4 msg_mid_bgg"><p class="msg_grid_p_1 "><a href="#"  class=""><img src="http://staging.eimpressive.com/watchguardlive/super/'+activity_lok_obj.document+'" style="width:100px;height:80px;margin-left:25%" alt="Band"></a></p></div><div class="ui-block-c msg_grid_5 msg_grid_5_1"><img src="images/use.png" alt="" class="p_img_grid" style="width:80px;"><br><p class="p_msg_grid">Tvo</p></div></div> '
-var chatr='<div class="ui-grid-b"  id="image"><div class="ui-block-a msg_grid_3" style="margin-top: 6%;"> <i class="zmdi zmdi-time zmd-fw" style="    opacity: 0.5; padding-left:7%;"></i><span class="msg_span_3">'+time+'</span><br><span class="msg_span_3">'+date+'</span>  </div><div class="ui-block-b msg_box msg_grid_4 msg_mid_bgg"><p class="msg_grid_p_1 "><a href="#"  class=""><img src="http://staging.eimpressive.com/watchguardlive/super/'+activity_lok_obj.document+'" style="width:100px;height:80px;margin-left:25%" alt="Band"></a></p></div><div class="ui-block-c msg_grid_5 msg_grid_5_1"><img src="images/primary/chat-icon.png" alt="" class="p_img_grid" style="width:80px;"><br><p class="p_msg_grid">Tvo</p></div></div> '
+var chatr='<br><div class="ui-grid-b"  id="image"><div class="ui-block-a msg_grid_3" style="margin-top: 6%;"> <i class="zmdi zmdi-time zmd-fw" style="    opacity: 0.5; padding-left:7%;"></i><span class="msg_span_3">'+time+'</span><br><span class="msg_span_3">'+date+'</span>  </div><div class="ui-block-b msg_box msg_grid_4 msg_mid_bgg"><p class="msg_grid_p_1 "><a href="#"  class=""><img src="http://staging.eimpressive.com/watchguardlive/super/'+activity_lok_obj.document+'" style="width:100px;height:80px;margin-left:25%" alt="Band"></a></p></div><div class="ui-block-c msg_grid_5 msg_grid_5_1"><img src="images/primary/chat-1.PNG" alt="" class="p_img_grid" style="width:80px;"><br><p class="p_msg_grid">Tvo</p></div></div> '
 
 $('#chatr').append(chatr);
 }
@@ -279,11 +284,12 @@ $('#chatr').append(chatr);
 if(status == 'cor'){
 //alert(activity_lok_obj.activity_log);
 //var chatr='<div class="ui-grid-b" style="padding-top:1%;"><div class="ui-block-a msg_grid_3"><img src="images/primary/chat-icon-state.png" alt="" style="width:80px;"   padding: 10px 2px 1px 18px;"><p style=" margin-left: 15px;margin-top: -5px;color:#54566B">State Head</p></div><div class="ui-block-b msg_grid_4"> <p class="msg_box  tip">'+activity_lok_obj.activity_log+'   </p><br> </div><div class="ui-block-c msg_grid_5"> <span class="msg_span_3">'+date+'</span><br><i class="zmdi zmdi-time zmd-fw" style="opacity: 0.5; padding-left:7%;padding-top: 7%;margin-top:-10px"></i><span class="msg_span_3">'+time+'</span></div></div>'
-var chatr='<div class="ui-grid-b" style="padding-top:1%;"><div class="ui-block-a msg_grid_3"><img src="images/primary/chat-icon.png" alt="" style="width:80px;"   padding: 10px 2px 1px 18px;"><p style=" margin-left: 15px;margin-top: -5px;color:#54566B">State Head</p></div><div class="ui-block-b msg_grid_4"> <p class="msg_box  tip">'+activity_lok_obj.activity_log+'   </p><br> </div><div class="ui-block-c msg_grid_5"> <span class="msg_span_3">'+date+'</span><br><i class="zmdi zmdi-time zmd-fw" style="opacity: 0.5; padding-left:7%;padding-top: 7%;margin-top:-10px"></i><span class="msg_span_3">'+time+'</span></div></div>'
+var chatr='<br><div class="ui-grid-b" style="padding-top:1%;"><div class="ui-block-a msg_grid_3"><img src="images/primary/chat-2.PNG" alt="" style="width:80px;"   padding: 10px 2px 1px 18px;"><p style=" margin-left: 15px;margin-top: -5px;color:#54566B">State Head</p></div><div class="ui-block-b msg_grid_4"> <p class="msg_box  tip">'+activity_lok_obj.activity_log+'   </p><br> </div><div class="ui-block-c msg_grid_5"> <span class="msg_span_3">'+date+'</span><br><i class="zmdi zmdi-time zmd-fw" style="opacity: 0.5; padding-left:7%;padding-top: 7%;margin-top:-10px"></i><span class="msg_span_3">'+time+'</span></div></div>'
 
 $('#chatr').append(chatr);
 }
 
+}
 }
 
 
@@ -342,7 +348,7 @@ document.getElementById('remarkg').value = "";
 //alert(region);
 //alert(user_id);
 $.ajax({url: 'http://staging.eimpressive.com/slim-cor/count.php?region='+region+"&user_id="+user_id,
-  data:$('#update_to_inprogressw').serialize(),
+  data:$('#update_to_inprogresswq').serialize(),
   type: 'post',                   
   async: 'true',
   crossDomain: true,
@@ -352,14 +358,26 @@ $.ajax({url: 'http://staging.eimpressive.com/slim-cor/count.php?region='+region+
   complete: function() {
   },
   success: function (result) {
-    console.log('searchlpa' +result);
+    console.log('searchlpae' +result);
     if(result[0]){
+    	alert('inside');
       $("#popupsearchmade").popup("open");
 		sessionStorage.setItem("supervisor_inprogress_count_array",JSON.stringify(result[0]));
      	sessionStorage.setItem("supervisor_verified_count_array",JSON.stringify(result[1]));
        	sessionStorage.setItem("supervisor_completed_count_array",JSON.stringify(result[2]));
  		sessionStorage.setItem("supervisor_not_verified_count_array",JSON.stringify(result[3]));
- 
+alert('got sessionStorage');
+ for(a=0;a<supervisor_inprogress_count_array.length;a++){
+  new_count = supervisor_inprogress_count_array[a];
+ alert(new_count.inprogress_count+'11');
+
+}
+ for(a=0;a<supervisor_verified_count_array.length;a++){
+  new_counta = supervisor_verified_count_array[a];
+ alert(new_counta.super_verified_count+'77');
+
+}
+
 
       $.mobile.loading().hide();
       $.mobile.changePage($('#dashboard'), { transition: "none", changeHash: true, reverse: false });

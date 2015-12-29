@@ -330,7 +330,7 @@ $('#lis_notveri').append(lis);
 
 }
 /* employmnet gap 1 and criminal 2-->74*/
-if(qualification_id == '81' || qualification_id == '82' || qualification_id == '83' || qualification_id == '74' ){
+if(qualification_id == '81' || qualification_id == '82' || qualification_id == '83'  ){
  
 var lis='<li class="ui-li-has-thumb ui-first-child li_list"><a href="#" onclick="callnextpnotveri('+a+')" class="waves-effect waves-button ui-btn ui-btn-icon-right ui-icon-carat-r  waves-button waves-effect waves-button"><img src="images/mobile/employment-gap.png" class="li_imgs_1"><h2 class="li_h2">'+super_obj.First_Name+''+super_obj.Last_Name+'</h2 class="li_h2"><p class="li_p">'+super_obj.verification_for+'</p><p class="li_p">'+super_obj.taskname+'</p><p class="li_p">'+super_obj.qualification_name+'</p><span class="li_span">'+date+'</span><b class="li_b_1">'+super_obj.verification_user_id+'</b></a></li>'
 
@@ -609,7 +609,7 @@ if( hj == gj && huemploy == qualification_id){
 }
 }
 
-if(qualification_id == '81' || qualification_id == '82' || qualification_id == '83' || qualification_id == '74' ){
+if(qualification_id == '81' || qualification_id == '82' || qualification_id == '83' ){
  for(a=0;a<employmentgap_verification_array.length;a++){
   employgap_veri = employmentgap_verification_array[a];
 
@@ -1332,7 +1332,7 @@ return false;
 }
 }
 
-if(qualification_id == '81' || qualification_id == '82' || qualification_id == '83' || qualification_id == '74' ){
+if(qualification_id == '81' || qualification_id == '82' || qualification_id == '83'  ){
       if(employgap_veria !== undefined){
   if(supervisor_final_commanda !== undefined){
 sessionStorage.setItem("employgap_veria",JSON.stringify(employgap_veria));
